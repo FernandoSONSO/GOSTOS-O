@@ -1,0 +1,27 @@
+:root {
+    --cor-de-fundo: #1E1E1E;
+    --verde: #6FFF57;
+    --branco: #FFFFFF;
+    --botao-ativo: #3A375E;
+    --botao-inativo: rgba(58, 55, 94, 0.5);
+    --texto-fundo: rgba(58, 55, 94, 0.3);
+
+}
+figure {
+    position: relative;
+}
+figure:before,
+figure:after {
+    content: '';
+    height: 70%;
+    width: 70%;
+    top: 0;
+    left: 50;
+    position: absolute;
+}
+img {
+    width: 50%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
